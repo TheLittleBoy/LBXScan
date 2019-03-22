@@ -1,1 +1,0 @@
-../../../../../LBXScan/LBXZXing/ZXingObjc/maxicode/ZXMaxiCodeReader.h

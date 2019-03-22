@@ -1,1 +1,0 @@
-../../../../../LBXScan/LBXZXing/ZXingObjc/client/result/ZXURLTOResultParser.h

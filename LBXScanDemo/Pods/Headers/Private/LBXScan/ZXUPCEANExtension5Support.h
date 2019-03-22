@@ -1,1 +1,0 @@
-../../../../../LBXScan/LBXZXing/ZXingObjc/oned/ZXUPCEANExtension5Support.h

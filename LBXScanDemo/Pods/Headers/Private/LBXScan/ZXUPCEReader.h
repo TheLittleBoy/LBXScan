@@ -1,1 +1,0 @@
-../../../../../LBXScan/LBXZXing/ZXingObjc/oned/ZXUPCEReader.h

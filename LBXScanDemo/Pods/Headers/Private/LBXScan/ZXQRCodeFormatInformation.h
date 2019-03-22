@@ -1,1 +1,0 @@
-../../../../../LBXScan/LBXZXing/ZXingObjc/qrcode/decoder/ZXQRCodeFormatInformation.h

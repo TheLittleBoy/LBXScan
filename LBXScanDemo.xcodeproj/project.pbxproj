@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AB409C224378AE0059BFF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB409B224378AE0059BFF5 /* AppDelegate.m */; };
+		04AB409F224378AE0059BFF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB409E224378AE0059BFF5 /* ViewController.m */; };
+		04AB40A2224378AE0059BFF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AB40A0224378AE0059BFF5 /* Main.storyboard */; };
+		04AB40A4224378AF0059BFF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AB40A3224378AF0059BFF5 /* Assets.xcassets */; };
+		04AB40A7224378AF0059BFF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AB40A5224378AF0059BFF5 /* LaunchScreen.storyboard */; };
+		04AB40AA224378AF0059BFF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40A9224378AF0059BFF5 /* main.m */; };
+		04AB40C722437B7C0059BFF5 /* LBXPermissionMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40B122437B7C0059BFF5 /* LBXPermissionMicrophone.m */; };
+		04AB40C822437B7C0059BFF5 /* LBXPermissionNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40B222437B7C0059BFF5 /* LBXPermissionNetwork.m */; };
+		04AB40C922437B7C0059BFF5 /* LBXPermissionCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40B322437B7C0059BFF5 /* LBXPermissionCalendar.m */; };
+		04AB40CA22437B7C0059BFF5 /* LBXPermissionReminders.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40B822437B7C0059BFF5 /* LBXPermissionReminders.m */; };
+		04AB40CB22437B7C0059BFF5 /* LBXPermissionHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40B922437B7C0059BFF5 /* LBXPermissionHealth.m */; };
+		04AB40CC22437B7C0059BFF5 /* LBXPermissionSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40BA22437B7C0059BFF5 /* LBXPermissionSetting.m */; };
+		04AB40CD22437B7C0059BFF5 /* LBXPermissionPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40BB22437B7C0059BFF5 /* LBXPermissionPhotos.m */; };
+		04AB40CE22437B7C0059BFF5 /* LBXPermissionLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40BF22437B7C0059BFF5 /* LBXPermissionLocation.m */; };
+		04AB40CF22437B7C0059BFF5 /* LBXPermissionContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40C022437B7C0059BFF5 /* LBXPermissionContacts.m */; };
+		04AB40D022437B7C0059BFF5 /* LBXPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40C122437B7C0059BFF5 /* LBXPermissionCamera.m */; };
+		04AB40D122437B7C0059BFF5 /* LBXPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40C222437B7C0059BFF5 /* LBXPermission.m */; };
+		04AB42D922437D7E0059BFF5 /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04AB40D422437D7D0059BFF5 /* CodeScan.bundle */; };
+		04AB42DA22437D7E0059BFF5 /* LBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40D722437D7D0059BFF5 /* LBXScanViewController.m */; };
+		04AB42DB22437D7E0059BFF5 /* LBXScanViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40D822437D7D0059BFF5 /* LBXScanViewStyle.m */; };
+		04AB42DC22437D7E0059BFF5 /* LBXScanVideoZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40D922437D7D0059BFF5 /* LBXScanVideoZoomView.m */; };
+		04AB42DD22437D7E0059BFF5 /* LBXScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40DA22437D7D0059BFF5 /* LBXScanLineAnimation.m */; };
+		04AB42DE22437D7E0059BFF5 /* LBXScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40DB22437D7D0059BFF5 /* LBXScanView.m */; };
+		04AB42DF22437D7E0059BFF5 /* LBXScanNetAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40DD22437D7D0059BFF5 /* LBXScanNetAnimation.m */; };
+		04AB42E022437D7E0059BFF5 /* LBXScanTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB40E122437D7D0059BFF5 /* LBXScanTypes.m */; };
+		04AB43C022437D7E0059BFF5 /* LBXScanNative.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB42D822437D7E0059BFF5 /* LBXScanNative.m */; };
+		04AB43CC22437F5E0059BFF5 /* CreateBarCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB43C322437F5D0059BFF5 /* CreateBarCodeViewController.m */; };
+		04AB43CE22437F5F0059BFF5 /* DIYScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB43C622437F5E0059BFF5 /* DIYScanViewController.m */; };
+		04AB43CF22437F5F0059BFF5 /* StyleDIY.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB43C822437F5E0059BFF5 /* StyleDIY.m */; };
+		04AB43D022437F5F0059BFF5 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB43C922437F5E0059BFF5 /* Global.m */; };
+		04AB43D422437F920059BFF5 /* QQLBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB43D222437F920059BFF5 /* QQLBXScanViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04AB4097224378AE0059BFF5 /* LBXScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBXScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AB409A224378AE0059BFF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04AB409B224378AE0059BFF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04AB409D224378AE0059BFF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04AB409E224378AE0059BFF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04AB40A1224378AE0059BFF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AB40A3224378AF0059BFF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AB40A6224378AF0059BFF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04AB40A8224378AF0059BFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AB40A9224378AF0059BFF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04AB40B122437B7C0059BFF5 /* LBXPermissionMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionMicrophone.m; sourceTree = "<group>"; };
+		04AB40B222437B7C0059BFF5 /* LBXPermissionNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionNetwork.m; sourceTree = "<group>"; };
+		04AB40B322437B7C0059BFF5 /* LBXPermissionCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCalendar.m; sourceTree = "<group>"; };
+		04AB40B422437B7C0059BFF5 /* LBXPermissionLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionLocation.h; sourceTree = "<group>"; };
+		04AB40B522437B7C0059BFF5 /* LBXPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermission.h; sourceTree = "<group>"; };
+		04AB40B622437B7C0059BFF5 /* LBXPermissionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCamera.h; sourceTree = "<group>"; };
+		04AB40B722437B7C0059BFF5 /* LBXPermissionContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionContacts.h; sourceTree = "<group>"; };
+		04AB40B822437B7C0059BFF5 /* LBXPermissionReminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionReminders.m; sourceTree = "<group>"; };
+		04AB40B922437B7C0059BFF5 /* LBXPermissionHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionHealth.m; sourceTree = "<group>"; };
+		04AB40BA22437B7C0059BFF5 /* LBXPermissionSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionSetting.m; sourceTree = "<group>"; };
+		04AB40BB22437B7C0059BFF5 /* LBXPermissionPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionPhotos.m; sourceTree = "<group>"; };
+		04AB40BC22437B7C0059BFF5 /* LBXPermissionCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCalendar.h; sourceTree = "<group>"; };
+		04AB40BD22437B7C0059BFF5 /* LBXPermissionNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionNetwork.h; sourceTree = "<group>"; };
+		04AB40BE22437B7C0059BFF5 /* LBXPermissionMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionMicrophone.h; sourceTree = "<group>"; };
+		04AB40BF22437B7C0059BFF5 /* LBXPermissionLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionLocation.m; sourceTree = "<group>"; };
+		04AB40C022437B7C0059BFF5 /* LBXPermissionContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionContacts.m; sourceTree = "<group>"; };
+		04AB40C122437B7C0059BFF5 /* LBXPermissionCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCamera.m; sourceTree = "<group>"; };
+		04AB40C222437B7C0059BFF5 /* LBXPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermission.m; sourceTree = "<group>"; };
+		04AB40C322437B7C0059BFF5 /* LBXPermissionPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionPhotos.h; sourceTree = "<group>"; };
+		04AB40C422437B7C0059BFF5 /* LBXPermissionSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionSetting.h; sourceTree = "<group>"; };
+		04AB40C522437B7C0059BFF5 /* LBXPermissionHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionHealth.h; sourceTree = "<group>"; };
+		04AB40C622437B7C0059BFF5 /* LBXPermissionReminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionReminders.h; sourceTree = "<group>"; };
+		04AB40D422437D7D0059BFF5 /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		04AB40D522437D7D0059BFF5 /* LBXScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanView.h; sourceTree = "<group>"; };
+		04AB40D622437D7D0059BFF5 /* LBXScanNetAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNetAnimation.h; sourceTree = "<group>"; };
+		04AB40D722437D7D0059BFF5 /* LBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanViewController.m; sourceTree = "<group>"; };
+		04AB40D822437D7D0059BFF5 /* LBXScanViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanViewStyle.m; sourceTree = "<group>"; };
+		04AB40D922437D7D0059BFF5 /* LBXScanVideoZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanVideoZoomView.m; sourceTree = "<group>"; };
+		04AB40DA22437D7D0059BFF5 /* LBXScanLineAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanLineAnimation.m; sourceTree = "<group>"; };
+		04AB40DB22437D7D0059BFF5 /* LBXScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanView.m; sourceTree = "<group>"; };
+		04AB40DC22437D7D0059BFF5 /* LBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanViewController.h; sourceTree = "<group>"; };
+		04AB40DD22437D7D0059BFF5 /* LBXScanNetAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanNetAnimation.m; sourceTree = "<group>"; };
+		04AB40DE22437D7D0059BFF5 /* LBXScanLineAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanLineAnimation.h; sourceTree = "<group>"; };
+		04AB40DF22437D7D0059BFF5 /* LBXScanVideoZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanVideoZoomView.h; sourceTree = "<group>"; };
+		04AB40E022437D7D0059BFF5 /* LBXScanViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanViewStyle.h; sourceTree = "<group>"; };
+		04AB40E122437D7D0059BFF5 /* LBXScanTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanTypes.m; sourceTree = "<group>"; };
+		04AB42D522437D7E0059BFF5 /* LBXScanTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanTypes.h; sourceTree = "<group>"; };
+		04AB42D722437D7E0059BFF5 /* LBXScanNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNative.h; sourceTree = "<group>"; };
+		04AB42D822437D7E0059BFF5 /* LBXScanNative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanNative.m; sourceTree = "<group>"; };
+		04AB43C122437F5D0059BFF5 /* StyleDIY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleDIY.h; sourceTree = "<group>"; };
+		04AB43C222437F5D0059BFF5 /* CreateBarCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateBarCodeViewController.h; sourceTree = "<group>"; };
+		04AB43C322437F5D0059BFF5 /* CreateBarCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateBarCodeViewController.m; sourceTree = "<group>"; };
+		04AB43C522437F5E0059BFF5 /* DIYScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYScanViewController.h; sourceTree = "<group>"; };
+		04AB43C622437F5E0059BFF5 /* DIYScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYScanViewController.m; sourceTree = "<group>"; };
+		04AB43C822437F5E0059BFF5 /* StyleDIY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleDIY.m; sourceTree = "<group>"; };
+		04AB43C922437F5E0059BFF5 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		04AB43CA22437F5E0059BFF5 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		04AB43D222437F920059BFF5 /* QQLBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQLBXScanViewController.m; sourceTree = "<group>"; };
+		04AB43D322437F920059BFF5 /* QQLBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQLBXScanViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AB4094224378AE0059BFF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AB408E224378AE0059BFF5 = {
+			isa = PBXGroup;
+			children = (
+				04AB4099224378AE0059BFF5 /* LBXScanDemo */,
+				04AB4098224378AE0059BFF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AB4098224378AE0059BFF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AB4097224378AE0059BFF5 /* LBXScanDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AB4099224378AE0059BFF5 /* LBXScanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04AB40D222437D7D0059BFF5 /* LBXScan */,
+				04AB40B022437B7C0059BFF5 /* LBXPermissions */,
+				04AB409A224378AE0059BFF5 /* AppDelegate.h */,
+				04AB409B224378AE0059BFF5 /* AppDelegate.m */,
+				04AB409D224378AE0059BFF5 /* ViewController.h */,
+				04AB409E224378AE0059BFF5 /* ViewController.m */,
+				04AB43D322437F920059BFF5 /* QQLBXScanViewController.h */,
+				04AB43D222437F920059BFF5 /* QQLBXScanViewController.m */,
+				04AB43C522437F5E0059BFF5 /* DIYScanViewController.h */,
+				04AB43C622437F5E0059BFF5 /* DIYScanViewController.m */,
+				04AB43C222437F5D0059BFF5 /* CreateBarCodeViewController.h */,
+				04AB43C322437F5D0059BFF5 /* CreateBarCodeViewController.m */,
+				04AB43CA22437F5E0059BFF5 /* Global.h */,
+				04AB43C922437F5E0059BFF5 /* Global.m */,
+				04AB43C122437F5D0059BFF5 /* StyleDIY.h */,
+				04AB43C822437F5E0059BFF5 /* StyleDIY.m */,
+				04AB40A0224378AE0059BFF5 /* Main.storyboard */,
+				04AB40A3224378AF0059BFF5 /* Assets.xcassets */,
+				04AB40A5224378AF0059BFF5 /* LaunchScreen.storyboard */,
+				04AB40A8224378AF0059BFF5 /* Info.plist */,
+				04AB40A9224378AF0059BFF5 /* main.m */,
+			);
+			path = LBXScanDemo;
+			sourceTree = "<group>";
+		};
+		04AB40B022437B7C0059BFF5 /* LBXPermissions */ = {
+			isa = PBXGroup;
+			children = (
+				04AB40B122437B7C0059BFF5 /* LBXPermissionMicrophone.m */,
+				04AB40B222437B7C0059BFF5 /* LBXPermissionNetwork.m */,
+				04AB40B322437B7C0059BFF5 /* LBXPermissionCalendar.m */,
+				04AB40B422437B7C0059BFF5 /* LBXPermissionLocation.h */,
+				04AB40B522437B7C0059BFF5 /* LBXPermission.h */,
+				04AB40B622437B7C0059BFF5 /* LBXPermissionCamera.h */,
+				04AB40B722437B7C0059BFF5 /* LBXPermissionContacts.h */,
+				04AB40B822437B7C0059BFF5 /* LBXPermissionReminders.m */,
+				04AB40B922437B7C0059BFF5 /* LBXPermissionHealth.m */,
+				04AB40BA22437B7C0059BFF5 /* LBXPermissionSetting.m */,
+				04AB40BB22437B7C0059BFF5 /* LBXPermissionPhotos.m */,
+				04AB40BC22437B7C0059BFF5 /* LBXPermissionCalendar.h */,
+				04AB40BD22437B7C0059BFF5 /* LBXPermissionNetwork.h */,
+				04AB40BE22437B7C0059BFF5 /* LBXPermissionMicrophone.h */,
+				04AB40BF22437B7C0059BFF5 /* LBXPermissionLocation.m */,
+				04AB40C022437B7C0059BFF5 /* LBXPermissionContacts.m */,
+				04AB40C122437B7C0059BFF5 /* LBXPermissionCamera.m */,
+				04AB40C222437B7C0059BFF5 /* LBXPermission.m */,
+				04AB40C322437B7C0059BFF5 /* LBXPermissionPhotos.h */,
+				04AB40C422437B7C0059BFF5 /* LBXPermissionSetting.h */,
+				04AB40C522437B7C0059BFF5 /* LBXPermissionHealth.h */,
+				04AB40C622437B7C0059BFF5 /* LBXPermissionReminders.h */,
+			);
+			path = LBXPermissions;
+			sourceTree = "<group>";
+		};
+		04AB40D222437D7D0059BFF5 /* LBXScan */ = {
+			isa = PBXGroup;
+			children = (
+				04AB42D622437D7E0059BFF5 /* LBXNative */,
+				04AB40D322437D7D0059BFF5 /* UI */,
+				04AB42D522437D7E0059BFF5 /* LBXScanTypes.h */,
+				04AB40E122437D7D0059BFF5 /* LBXScanTypes.m */,
+			);
+			path = LBXScan;
+			sourceTree = "<group>";
+		};
+		04AB40D322437D7D0059BFF5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				04AB40D422437D7D0059BFF5 /* CodeScan.bundle */,
+				04AB40DE22437D7D0059BFF5 /* LBXScanLineAnimation.h */,
+				04AB40DA22437D7D0059BFF5 /* LBXScanLineAnimation.m */,
+				04AB40D622437D7D0059BFF5 /* LBXScanNetAnimation.h */,
+				04AB40DD22437D7D0059BFF5 /* LBXScanNetAnimation.m */,
+				04AB40DF22437D7D0059BFF5 /* LBXScanVideoZoomView.h */,
+				04AB40D922437D7D0059BFF5 /* LBXScanVideoZoomView.m */,
+				04AB40D522437D7D0059BFF5 /* LBXScanView.h */,
+				04AB40DB22437D7D0059BFF5 /* LBXScanView.m */,
+				04AB40DC22437D7D0059BFF5 /* LBXScanViewController.h */,
+				04AB40D722437D7D0059BFF5 /* LBXScanViewController.m */,
+				04AB40E022437D7D0059BFF5 /* LBXScanViewStyle.h */,
+				04AB40D822437D7D0059BFF5 /* LBXScanViewStyle.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		04AB42D622437D7E0059BFF5 /* LBXNative */ = {
+			isa = PBXGroup;
+			children = (
+				04AB42D722437D7E0059BFF5 /* LBXScanNative.h */,
+				04AB42D822437D7E0059BFF5 /* LBXScanNative.m */,
+			);
+			path = LBXNative;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AB4096224378AE0059BFF5 /* LBXScanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AB40AD224378AF0059BFF5 /* Build configuration list for PBXNativeTarget "LBXScanDemo" */;
+			buildPhases = (
+				04AB4093224378AE0059BFF5 /* Sources */,
+				04AB4094224378AE0059BFF5 /* Frameworks */,
+				04AB4095224378AE0059BFF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBXScanDemo;
+			productName = LBXScanDemo;
+			productReference = 04AB4097224378AE0059BFF5 /* LBXScanDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AB408F224378AE0059BFF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "华夏大地教育网";
+				TargetAttributes = {
+					04AB4096224378AE0059BFF5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 04AB4092224378AE0059BFF5 /* Build configuration list for PBXProject "LBXScanDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AB408E224378AE0059BFF5;
+			productRefGroup = 04AB4098224378AE0059BFF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AB4096224378AE0059BFF5 /* LBXScanDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AB4095224378AE0059BFF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AB40A7224378AF0059BFF5 /* LaunchScreen.storyboard in Resources */,
+				04AB40A4224378AF0059BFF5 /* Assets.xcassets in Resources */,
+				04AB40A2224378AE0059BFF5 /* Main.storyboard in Resources */,
+				04AB42D922437D7E0059BFF5 /* CodeScan.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AB4093224378AE0059BFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AB43D422437F920059BFF5 /* QQLBXScanViewController.m in Sources */,
+				04AB40CD22437B7C0059BFF5 /* LBXPermissionPhotos.m in Sources */,
+				04AB409F224378AE0059BFF5 /* ViewController.m in Sources */,
+				04AB40AA224378AF0059BFF5 /* main.m in Sources */,
+				04AB42E022437D7E0059BFF5 /* LBXScanTypes.m in Sources */,
+				04AB40D122437B7C0059BFF5 /* LBXPermission.m in Sources */,
+				04AB42DC22437D7E0059BFF5 /* LBXScanVideoZoomView.m in Sources */,
+				04AB43C022437D7E0059BFF5 /* LBXScanNative.m in Sources */,
+				04AB42DE22437D7E0059BFF5 /* LBXScanView.m in Sources */,
+				04AB42DB22437D7E0059BFF5 /* LBXScanViewStyle.m in Sources */,
+				04AB43CE22437F5F0059BFF5 /* DIYScanViewController.m in Sources */,
+				04AB40CC22437B7C0059BFF5 /* LBXPermissionSetting.m in Sources */,
+				04AB43CC22437F5E0059BFF5 /* CreateBarCodeViewController.m in Sources */,
+				04AB40C822437B7C0059BFF5 /* LBXPermissionNetwork.m in Sources */,
+				04AB409C224378AE0059BFF5 /* AppDelegate.m in Sources */,
+				04AB43CF22437F5F0059BFF5 /* StyleDIY.m in Sources */,
+				04AB43D022437F5F0059BFF5 /* Global.m in Sources */,
+				04AB42DF22437D7E0059BFF5 /* LBXScanNetAnimation.m in Sources */,
+				04AB42DA22437D7E0059BFF5 /* LBXScanViewController.m in Sources */,
+				04AB40C722437B7C0059BFF5 /* LBXPermissionMicrophone.m in Sources */,
+				04AB40CB22437B7C0059BFF5 /* LBXPermissionHealth.m in Sources */,
+				04AB40CF22437B7C0059BFF5 /* LBXPermissionContacts.m in Sources */,
+				04AB40D022437B7C0059BFF5 /* LBXPermissionCamera.m in Sources */,
+				04AB42DD22437D7E0059BFF5 /* LBXScanLineAnimation.m in Sources */,
+				04AB40C922437B7C0059BFF5 /* LBXPermissionCalendar.m in Sources */,
+				04AB40CA22437B7C0059BFF5 /* LBXPermissionReminders.m in Sources */,
+				04AB40CE22437B7C0059BFF5 /* LBXPermissionLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04AB40A0224378AE0059BFF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AB40A1224378AE0059BFF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AB40A5224378AF0059BFF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AB40A6224378AF0059BFF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AB40AB224378AF0059BFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04AB40AC224378AF0059BFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AB40AE224378AF0059BFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX9724CS5M;
+				INFOPLIST_FILE = LBXScanDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edu-edu.LBXScanDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04AB40AF224378AF0059BFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX9724CS5M;
+				INFOPLIST_FILE = LBXScanDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edu-edu.LBXScanDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AB4092224378AE0059BFF5 /* Build configuration list for PBXProject "LBXScanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AB40AB224378AF0059BFF5 /* Debug */,
+				04AB40AC224378AF0059BFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AB40AD224378AF0059BFF5 /* Build configuration list for PBXNativeTarget "LBXScanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AB40AE224378AF0059BFF5 /* Debug */,
+				04AB40AF224378AF0059BFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AB408F224378AE0059BFF5 /* Project object */;
+}
